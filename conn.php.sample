@@ -1,0 +1,7 @@
+﻿<?php
+$conn = new mysqli("localhost", "username", "password", "dbname");
+mysqli_query($conn, "set names 'utf8'");
+if ($conn->connect_error) {
+    die("Connect Error!");
+}
+?>

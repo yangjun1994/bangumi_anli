@@ -1,0 +1,39 @@
+body {
+    padding-top: 50px;
+}
+
+.color-about {
+    background-color: #3F2860;
+    color: #90C5A9;
+}
+
+.color-main {
+    background-color: #3F2860;
+    color: #90C5A9;
+}
+
+.heimu-about {
+    background-color: #000000;
+    color: #000000;
+    cursor: help;
+    border: none;
+}
+
+.heimu-about:hover {
+    background-color: #99CCCC;
+    color: #3F2860;
+}
+
+.main-title {
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.lowpadmargin {
+    padding: 5px;
+    margin: 0px;
+}
+
+.main-table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #2F1850;
+}
