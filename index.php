@@ -120,7 +120,7 @@ while($bangumi_row = mysqli_fetch_array($result)) {
     echo "<td>" . $time_str[$bangumi_row['time']] . "</td>";
     echo "<td>" . get_b_link($bangumi_row['b_link']) . "</td>";
     echo "<td>" . $yuri_str[$bangumi_row['yuri']] . "</td>";
-     echo "<td>" . "假装这里有按钮id=".$bangumi_row['id'] . "</td>";
+    echo "<td>" . "<a href = detail.php?id=" . $bangumi_row['id'] . ">戳我进入</a>" . "</td>";
     echo "</tr>";
     }
 mysqli_close($conn);
